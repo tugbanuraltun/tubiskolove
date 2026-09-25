@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+    background-color: #fce4ec;
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: hwb(334 9% 15%);
+    font-size: 48px;
+}
+
+p {s
+    color:  hwb(334 9% 15%);;
+    font-size: 22px;
+}
+.profil-foto {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 25%; 
+    display: block;
+    margin: 20px auto; 
+}
+.hakkimda-kutusu {
+    background-color: white; 
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.hakkimda-kutusu h2, .hakkimda-kutusu h3 {
+    color:  hwb(334 9% 15%);;
+}
+
+.hakkimda-kutusu ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.hakkimda-kutusu li {
+    margin: 10px 0;
+}
+.alt-fotolar {
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    margin-top: 25px; 
+}
+
+.alt-fotolar img {
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 15%;
+    border: 3px solid hwb(334 26% 19%);
+}
